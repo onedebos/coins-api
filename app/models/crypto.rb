@@ -11,6 +11,7 @@ class Crypto < ApplicationRecord
     if types == 'sell'
       number = curr_price.to_f - (curr_price.to_f * margin / 100)
       number * exchangeRate
+      
 
     else
       if types == 'buy'
@@ -19,4 +20,6 @@ class Crypto < ApplicationRecord
       end
     end
   end
+
+
 end

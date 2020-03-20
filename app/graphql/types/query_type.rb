@@ -1,11 +1,8 @@
 module Types
   class QueryType < Types::BaseObject
-    field :all_cryptos, [Types::CryptoType], null: false
-    
-
-    def all_cryptos
-      Crypto.all
+    field :coin, [Types::CalculatePriceType], null: false
+    def coin
+      CalculatePrice.all
     end
-
   end
 end

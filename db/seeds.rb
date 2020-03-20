@@ -1,1 +1,1 @@
-Crypto.create(id:1)
+CalculatePrice.create(id:1)

@@ -1,0 +1,2 @@
+class CalculatePrice < ApplicationRecord
+end

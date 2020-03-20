@@ -1,0 +1,1 @@
+Crypto.create!(id:1)

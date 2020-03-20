@@ -5,6 +5,10 @@ This API calls the coinmarketcap API to get the current bitcoin price and uses t
 ## Built With
 
 - Rails
+- GraphQL
+
+## Live version
+[See the graphiql interface](https://buycoinsgraphql2.herokuapp.com/graphiql)
 
 ## Getting Started
 
@@ -12,28 +16,20 @@ This API calls the coinmarketcap API to get the current bitcoin price and uses t
 
 To get a local copy up and running follow these simple example steps.
 
-- git clone the frontend repo
-
 ```
 git clone https://github.com/onedebos/coins-api
 ```
-
-- git clone the backend repo if you want to run the server on your local machine. Otherwise, skip the next 3 steps.
-
-```
-git clone https://github.com/onedebos/coins-api
-```
-
-- cd into the backend repo and install the gems
 
 ```
 bundle install
 ```
 
-- run the rails server on port 3001
-
 ```
-rails s -p 3001
+rails s
+```
+head over to the following link below to view the graphiql interface
+```
+http://localhost:3000/graphiql
 ```
 
 ### Prerequisites

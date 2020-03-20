@@ -10,6 +10,8 @@ This API calls the coinmarketcap API to get the current bitcoin price and uses t
 ## Live version
 [See the graphiql interface](https://buycoinsgraphql2.herokuapp.com/graphiql)
 
+We have an `allCryptos` type and a `calculatePrice` query within it that takes 3 arguments with their types.`types: string`, `margin: float` and `exchangeRate: float`
+
 ## Getting Started
 
 **To get started, follow the instructions below**
